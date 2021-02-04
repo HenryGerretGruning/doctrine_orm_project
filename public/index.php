@@ -12,7 +12,7 @@ $container = new Container();
 
 $container->set('db', function(){
 	return DatabaseFactory::create;
-})
+});
 $container->set('templating', function() {
     return new Templating;
 });
