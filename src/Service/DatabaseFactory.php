@@ -13,15 +13,15 @@ class DatabaseFactory{
 	*/
 	public static function create(){
 		$isDevMode = true;
-		$metadata = Setup::createAnotationMetadataConfiguration([
-			__DIR__ = '/../Entity'], $isDevMode);
+		$metadata = Setup::createAnnotationMetadataConfiguration([
+			__DIR__ . '/../Entity'], $isDevMode);
 
 		$dbParams = [
 			'driver' => 'pdo_mysql',
 			'host' => 'localhost',
-			'user' => 'henry'
+			'user' => 'henry',
 			'password' => 'qwerty',
-			'dbname' => 'doctrineorm'
+			'dbname' => 'doctrineorm',
 			'charset' => 'utf8'
 		];
 
