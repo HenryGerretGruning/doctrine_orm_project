@@ -82,14 +82,12 @@ form textarea {
 
 header {
     background-color: #fff;
-    box-shadow: 0 5px 5px #ff6961;
+    box-shadow: 0 5px 5px red;
     font-size: 160%;
     font-weight: bold;
     padding: 24px;
     text-align: center;
 }
-
-
 
 header a:link, header a:visited, header a:active, header a:hover {
     color: #000;
